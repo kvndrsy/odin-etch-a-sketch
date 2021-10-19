@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  height: 500px;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+.cell {
+  flex: 1;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.slider {
+  margin: 0;
+}
